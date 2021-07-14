@@ -1,3 +1,11 @@
 @import '/partials/_common.scss';
 @import '/partials/_header.scss';
+@import 'partials/card';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    // background-color: black;
+}

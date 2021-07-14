@@ -1,0 +1,12 @@
+.card {
+    display: inline-block;
+    width: calc(100% / 6 - 20px);
+    margin: 20px;
+}
+
+.card div {
+    height: 195px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+}

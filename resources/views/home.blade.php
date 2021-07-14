@@ -10,6 +10,14 @@
     </head>
     <body>
        @include('partials.header')
+
+       <main>
+       <div class="container">
+            @foreach($comics as $item)
+             @include('partials.card')
+            @endforeach
+        </div>
+       </main>
     </body>    
 
 </html>
